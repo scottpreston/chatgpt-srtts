@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Chat GPT Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>OPEN AI Chat Example</h1>
+    <p>This is a simple page that interfaces with the ChatGPT API.</p>
+    <h4>Chat Request</h4>
+    <form id="my-form">
+        <label for="words">Enter words:</label>
+        <input type="text" id="words" name="words" value="">
+        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="button" id="autorec-button" onclick="autoRecognize()">Auto Recognize</button>
+    </form>
+    <h4>Answer</h4>
+    <div id="answer" class="answer-box"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

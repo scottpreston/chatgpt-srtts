@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+    color: #808080;
+    cursor: not-allowed;
+}
+
+
+input {
+    border-color: #e2e2e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+.answer-box {
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e5e5;
+}
